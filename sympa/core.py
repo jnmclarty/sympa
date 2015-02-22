@@ -1,3 +1,5 @@
+from sympy import lambdify
+
 def _create_func(ex,lib):
     symbs = list(ex.free_symbols)
     names = [e.name for e in symbs]
