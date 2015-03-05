@@ -1,1 +1,1 @@
-from core import domath
+from sympa.core import domath

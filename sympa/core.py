@@ -19,4 +19,4 @@ def domath(df,exp,lib='math'):
                 tdf[name] = tdf[v].shift(int(i)*-1)
 
     vals = tdf[list(names)].values
-    return [afunc(*v) for v in vals]
+    return [afunc(*val) for val in vals]

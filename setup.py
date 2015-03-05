@@ -7,7 +7,7 @@ def read(*paths):
     with open(os.path.join(*paths), 'r') as f:
         return f.read()
 
-v = '0.1rc1'
+v = '0.1.0'
 print "Setting up sympa"
 
 setup(
