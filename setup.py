@@ -22,6 +22,7 @@ setup(
   download_url = 'https://github.com/jnmclarty/sympa/tarball/' + v,
   keywords = ['symbolic', 'symbol', 'sympa', 'sympy', 'pandas', 'math'],
   classifiers = ['Development Status :: 1 - Planning',
+                 'License :: OSI Approved :: MIT License',
                  'Intended Audience :: Developers',
                  'Intended Audience :: Education',
                  'Intended Audience :: Financial and Insurance Industry',
