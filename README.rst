@@ -23,7 +23,13 @@ Usage
    from sympy import symbols
    from sympa import domath
    
-   df = pd.DataFrame({'x' : [1,2,3,4] * 2, 'y' : [0.1, 0.2] * 4)
+   #DataFrame expression:
+   
+   df = pd.DataFrame({'x' : [1,2,3,4] * 2, 'y' : [0.1, 0.2] * 4})
+   
+   #Series expression
+   
+   s = pd.Series({'x' : [1,2,3,4] * 2, 'y' : [0.1, 0.2] * 4})
    
    # Notice x_-1 and x_-2 are used to reference x @ t=-1, and x @ t=-2.
    x, xn1, xn2, y = symbols('x x_-1 x_-2 y')
