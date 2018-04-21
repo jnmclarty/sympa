@@ -27,7 +27,7 @@ Usage
    
    df = pd.DataFrame({'x' : [1,2,3,4] * 2, 'y' : [0.1, 0.2] * 4})
    
-   #Series expression
+   #Series expression (Not recommended, but @kiaderouiche must have found it useful)
    
    s = pd.Series({'x' : [1,2,3,4] * 2, 'y' : [0.1, 0.2] * 4})
    
