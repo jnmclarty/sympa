@@ -8,7 +8,7 @@ def read(*paths):
         return f.read()
 
 v = '0.1.0'
-print "Setting up sympa"
+print ("Setting up sympa")
 
 setup(
   name = 'sympa',
